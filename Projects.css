@@ -4,12 +4,14 @@ div.gallery
   border: 1px solid #ccc;
   float: left;
   width: 180px;
-  display: grid;
+  display: inline;
+  opacity: 0.5;
 
 }
 div.gallery:hover
 {
   border: 1px solid #47FF3C;
+  opacity: 1;
 }
 div.gallery img {
   width: 100%;
